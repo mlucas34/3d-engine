@@ -1,0 +1,101 @@
+﻿  ColliderComponent.cpp
+  RigidBodyComponent.cpp
+  PhysicsEngine.cpp
+  TerrainComponent.cpp
+  LightComponent.cpp
+  CameraComponent.cpp
+  MeshComponent.cpp
+  Component.cpp
+  TransformComponent.cpp
+  Player.cpp
+  Entity.cpp
+  MyGame.cpp
+  Texture.cpp
+  Display.cpp
+  Game.cpp
+  Main.cpp
+  Sandbox.cpp
+  ConstantBuffer.cpp
+  DeviceContext.cpp
+C:\engine\Vtx\Vtx\VtxEngine\Source\VtxEngine\Graphics\DeviceContext.cpp(65,15): warning C4267: 'initializing': conversion from 'size_t' to 'UINT', possible loss of data
+  GraphicsEngine.cpp
+C:\engine\Vtx\Vtx\VtxEngine\Source\VtxEngine\Graphics\GraphicsEngine.cpp(64,56): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\engine\Vtx\Vtx\VtxEngine\Source\VtxEngine\Graphics\GraphicsEngine.cpp(64,38): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\engine\Vtx\Vtx\VtxEngine\Source\VtxEngine\Graphics\GraphicsEngine.cpp(97,86): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\engine\Vtx\Vtx\VtxEngine\Source\VtxEngine\Graphics\GraphicsEngine.cpp(159,48): warning C4267: 'argument': conversion from 'size_t' to 'UINT', possible loss of data
+C:\engine\Vtx\Vtx\VtxEngine\Source\VtxEngine\Graphics\GraphicsEngine.cpp(161,57): warning C4267: 'argument': conversion from 'size_t' to 'UINT', possible loss of data
+C:\engine\Vtx\Vtx\VtxEngine\Source\VtxEngine\Graphics\GraphicsEngine.cpp(161,40): warning C4267: 'argument': conversion from 'size_t' to 'UINT', possible loss of data
+  Generating Code...
+  Compiling...
+  IndexBuffer.cpp
+C:\engine\Vtx\Vtx\VtxEngine\Source\VtxEngine\Graphics\IndexBuffer.cpp(12,28): warning C4267: '=': conversion from 'size_t' to 'UINT', possible loss of data
+  PixelShader.cpp
+  RenderSystem.cpp
+  SwapChain.cpp
+  Texture2D.cpp
+C:\engine\Vtx\Vtx\VtxEngine\Source\VtxEngine\Graphics\Texture2D.cpp(21,56): warning C4267: '=': conversion from 'size_t' to 'UINT', possible loss of data
+C:\engine\Vtx\Vtx\VtxEngine\Source\VtxEngine\Graphics\Texture2D.cpp(30,53): warning C4244: '=': conversion from 'UINT' to 'FLOAT', possible loss of data
+  VertexBuffer.cpp
+C:\engine\Vtx\Vtx\VtxEngine\Source\VtxEngine\Graphics\VertexBuffer.cpp(12,37): warning C4267: '=': conversion from 'size_t' to 'UINT', possible loss of data
+  VertexShader.cpp
+  InputSystem.cpp
+C:\engine\Vtx\Vtx\VtxEngine\Source\VtxEngine\Input\InputSystem.cpp(24,83): warning C4244: 'argument': conversion from 'LONG' to 'float', possible loss of data
+C:\engine\Vtx\Vtx\VtxEngine\Source\VtxEngine\Input\InputSystem.cpp(24,64): warning C4244: 'argument': conversion from 'LONG' to 'float', possible loss of data
+  Material.cpp
+  Mesh.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(476,61): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+  (compiling source file 'VtxEngine/Source/VtxEngine/Resource/Mesh.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(476,61):
+      the template instantiation context (the oldest one first) is
+          C:\engine\Vtx\Vtx\VtxEngine\Source\VtxEngine\Resource\Mesh.cpp(146,19):
+          see reference to function template instantiation 'unsigned int &std::vector<unsigned int,std::allocator<unsigned int>>::emplace_back<size_t>(size_t &&)' being compiled
+              C:\engine\Vtx\Vtx\VtxEngine\Source\VtxEngine\Resource\Mesh.cpp(146,31):
+              see the first reference to 'std::vector<unsigned int,std::allocator<unsigned int>>::emplace_back' in 'Vtx::Mesh::Mesh'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\vector(924,24):
+          see reference to function template instantiation '_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_one_at_back<unsigned __int64>(unsigned __int64 &&)' being compiled
+          with
+          [
+              _Ty=unsigned int
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\vector(845,20):
+          see reference to function template instantiation '_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_back_with_unused_capacity<unsigned __int64>(unsigned __int64 &&)' being compiled
+          with
+          [
+              _Ty=unsigned int
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\vector(860,18):
+          see reference to function template instantiation 'void std::_Construct_in_place<unsigned int,_Ty>(unsigned int &,_Ty &&) noexcept' being compiled
+          with
+          [
+              _Ty=size_t
+          ]
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xmemory(732,82): warning C4267: 'initializing': conversion from 'size_t' to '_Ty', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xmemory(732,82): warning C4267:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xmemory(732,82): warning C4267:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xmemory(732,82): warning C4267:             _Ty=unsigned int
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xmemory(732,82): warning C4267:         ]
+  (compiling source file 'VtxEngine/Source/VtxEngine/Resource/Mesh.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xmemory(732,82):
+      the template instantiation context (the oldest one first) is
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\vector(848,17):
+          see reference to function template instantiation 'unsigned int *std::vector<unsigned int,std::allocator<unsigned int>>::_Emplace_reallocate<_Ty>(unsigned int *const ,_Ty &&)' being compiled
+          with
+          [
+              _Ty=size_t
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\vector(900,23):
+          see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,unsigned __int64>(_Alloc &,_Objty *const ,unsigned __int64 &&)' being compiled
+          with
+          [
+              _Alloc=std::allocator<unsigned int>,
+              _Ty=unsigned int,
+              _Objty=unsigned int
+          ]
+  
+  Resource.cpp
+  ResourceManager.cpp
+  Window.cpp
+  World.cpp
+  Generating Code...
+  Vtx.vcxproj -> C:\engine\Vtx\x64\Debug\Vtx.exe

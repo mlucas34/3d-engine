@@ -1,0 +1,155 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.43.34808.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/engine/vtx/vtx/sanbox/main.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "dc61f5c2dde69ab7558b8c9636df17840df2bcff699473cb2281ba67a65f83c6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/engine/vtx/vtx/sanbox/appwindow.h"
+          },
+          "hashes": {
+            "sha-256": "d6e4c6ab83b2ace81ec5609b2e2e5ffcba80e4c90f2da08822cd2f3284414226"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/engine/vtx/vtx/vtxengine/windowcreation/window.h"
+          },
+          "hashes": {
+            "sha-256": "074324c9908ea262599258483839f9a86a459eef0967844cf04855e58fa71820"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/engine/vtx/vtx/vtxengine/graphics/graphicsengine.h"
+          },
+          "hashes": {
+            "sha-256": "e209a3fdc1d0c8b28e155c3399d5e281d52b17d871f9fd7ae24a3ad40b9bad59"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/engine/vtx/vtx/vtxengine/graphics/swapchain/swapchain.h"
+          },
+          "hashes": {
+            "sha-256": "89335bcaadceac9602670ad906e23994260aeaf6e065da6399b1002d106dd33d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/engine/vtx/vtx/vtxengine/graphics/devicecontext/devicecontext.h"
+          },
+          "hashes": {
+            "sha-256": "4857a4315e9f0dfd582d0b9498400551c0fd08784ca8c464acc5fd2104ae8593"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/engine/vtx/vtx/vtxengine/graphics/vertexbuffer/vertexbuffer.h"
+          },
+          "hashes": {
+            "sha-256": "70cbc9a260f0e74d332163c29be46378d6a6090f97d865b88aeab53651fcd24b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/engine/vtx/vtx/vtxengine/graphics/constantbuffer/constantbuffer.h"
+          },
+          "hashes": {
+            "sha-256": "3a7f75638be514a4d1fc1d8ab30e5af21620cc8922cb43cff548f64690910031"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/engine/vtx/vtx/vtxengine/graphics/indexbuffer/indexbuffer.h"
+          },
+          "hashes": {
+            "sha-256": "617dcfa639ad670e6c497f191a9a5f2515124f4df06b03138dcb76d8ca8e5b7e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/engine/vtx/vtx/vtxengine/graphics/vertexshader/vertexshader.h"
+          },
+          "hashes": {
+            "sha-256": "ed1d5e684b8eed9c99dd37e528d621903bbdd7476fa6d57a17c5742a92af4f8d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/engine/vtx/vtx/vtxengine/graphics/pixelshader/pixelshader.h"
+          },
+          "hashes": {
+            "sha-256": "4db53bd269311a24985375d698bc9207b5531d39450dfda895696f78c0da669e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/engine/vtx/vtx/vtxengine/inputsystem/inputlistener.h"
+          },
+          "hashes": {
+            "sha-256": "cc636f4226f31bca40a85bb39efc2a14d4612ad4f3c50b0650eb392ce2cbea4d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/engine/vtx/vtx/vtxengine/math/point.h"
+          },
+          "hashes": {
+            "sha-256": "e8fd2ece1e4dc91b12f53db39cb05c7d42a88a7e636dc8055df3f8e886da5ac5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/engine/vtx/vtx/vtxengine/math/matrix4x4.h"
+          },
+          "hashes": {
+            "sha-256": "9abdbfccd98f01c992ca1fee340071a58cfa12bc85d3efced5f0327efb6d90bf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/engine/vtx/vtx/vtxengine/math/vector3d.h"
+          },
+          "hashes": {
+            "sha-256": "1063079b170efc924579c88073bd74fa55754a6dc4f4fd2a7609be6ac8344e4a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/engine/vtx/vtx/vtxengine/math/vector4d.h"
+          },
+          "hashes": {
+            "sha-256": "fed6bb4b4081cdff52f95a793a02659d8197bc4b0e6f515b6b14af924d73a12d"
+          }
+        }
+      ]
+    }
+  ]
+}

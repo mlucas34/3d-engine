@@ -1,0 +1,16 @@
+#pragma once
+#include <VtxEngine/Entity/Entity.h>
+#include <VtxEngine/Game/Player.h>
+#include <VtxEngine/Game/World.h>
+#include <VtxEngine/Entity/Component.h>
+#include <VtxEngine/Entity/TransformComponent.h>
+#include <VtxEngine/Entity/MeshComponent.h>
+#include <VtxEngine/Entity/CameraComponent.h>
+#include <VtxEngine/Entity/LightComponent.h>
+#include <VtxEngine/Entity/TerrainComponent.h>
+#include <VtxEngine/Game/Game.h>
+#include <VtxEngine/Resource/ResourceManager.h>
+#include <VtxEngine/Resource/Texture.h>
+#include <VtxEngine/Resource/Mesh.h>
+#include <VtxEngine/Resource/Material.h>
+#include <VtxEngine/Input/InputSystem.h>
